@@ -5,7 +5,7 @@ import kotlinx.serialization.Serializable
 @Serializable
 data class SomeDataClass(val a: Int)
 
-// run me
+// remember to build project before running main
 fun main() {
     println(SomeDataClass.serializer())
 }
